@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  --font-family: sans-serif;
+
+}
+body{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+
+}
+
+h1{
+  text-align: center;
+  font-family: var(--font-family);
+}
+.reg{
+  text-align: center;
+  font-family: var(--font-family);
+  opacity: 0.8;
+}
+
+input[type="text"],[type="Email"], [type="password"]{
+padding: 8px;
+margin: 10px;
+
+}
+
+  
+input:required{
+  display: inline-block;
+  position: relative;
+  border: 2px solid orange;
+
+}
+input:focus{
+  outline: none;
+}
